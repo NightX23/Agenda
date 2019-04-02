@@ -1,0 +1,80 @@
+﻿@model IEnumerable<Agenda.Models.Event>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<div>
+    <div class="col-sm-3">
+        <a class="btn btn-primary" asp-action="Create">Create New</a>
+    </div>
+    <form asp-controller="Ev" asp-action="Index" method="get">
+        <div class="col-sm-9">
+            <div class="row">
+                <div class="col-sm-12 text-right">
+                    <b>Search:</b>
+                    <label class="radio-inline">@Html.RadioButton("option", "event")Name</label>
+                    <label class="radio-inline">@Html.RadioButton("option", "date")Phone</label>
+                    <label class="radio-inline">@Html.RadioButton("option", "location")Address</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="pull-right">
+                    <button type="submit" name="submit" value="Search" class="btn btn-primary">
+                        <span class="glyphicon glyphicon-search"></span> Search
+                    </button>
+                </div>
+                <div class="pull-right">
+                    @Html.Editor("search", new { htmlAttributes = new { @class = "form-control" } })
+                    
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+@if (Model.Count() == 0)
+{
+    <div class="text-primary">There are no contacts found...</div>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.EventName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Date)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Location)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.EventName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Date)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Location)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary">Edit</a> &nbsp;
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

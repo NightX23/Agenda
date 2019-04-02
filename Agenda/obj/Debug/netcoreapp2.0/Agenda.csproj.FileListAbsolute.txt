@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\Tareas\Cuatrimestre VII\Programación III\Agenda\Agenda\Agenda\bin\Debug\netcoreapp2.0\Agenda.deps.json
+C:\Users\User\Desktop\Tareas\Cuatrimestre VII\Programación III\Agenda\Agenda\Agenda\bin\Debug\netcoreapp2.0\Agenda.runtimeconfig.json
+C:\Users\User\Desktop\Tareas\Cuatrimestre VII\Programación III\Agenda\Agenda\Agenda\bin\Debug\netcoreapp2.0\Agenda.runtimeconfig.dev.json
+C:\Users\User\Desktop\Tareas\Cuatrimestre VII\Programación III\Agenda\Agenda\Agenda\bin\Debug\netcoreapp2.0\Agenda.dll
+C:\Users\User\Desktop\Tareas\Cuatrimestre VII\Programación III\Agenda\Agenda\Agenda\bin\Debug\netcoreapp2.0\Agenda.pdb
+C:\Users\User\Desktop\Tareas\Cuatrimestre VII\Programación III\Agenda\Agenda\Agenda\obj\Debug\netcoreapp2.0\Agenda.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Tareas\Cuatrimestre VII\Programación III\Agenda\Agenda\Agenda\obj\Debug\netcoreapp2.0\Agenda.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Tareas\Cuatrimestre VII\Programación III\Agenda\Agenda\Agenda\obj\Debug\netcoreapp2.0\Agenda.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Tareas\Cuatrimestre VII\Programación III\Agenda\Agenda\Agenda\obj\Debug\netcoreapp2.0\Agenda.AssemblyInfo.cs
+C:\Users\User\Desktop\Tareas\Cuatrimestre VII\Programación III\Agenda\Agenda\Agenda\obj\Debug\netcoreapp2.0\Agenda.dll
+C:\Users\User\Desktop\Tareas\Cuatrimestre VII\Programación III\Agenda\Agenda\Agenda\obj\Debug\netcoreapp2.0\Agenda.pdb
